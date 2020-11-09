@@ -57,10 +57,13 @@
 
         .main .left .image {
             width: 40px;
-            height: 40px;
-            border-radius: 20px;
-            border: 1px solid lightgray;
-
+    height: 40px;
+    border-radius: 20px;
+    border: 1px solid lightgray;
+    margin-top: 20px;
+        }
+        .image:hover {
+            box-shadow: 2px 2px 18px red;
         }
 
         .lable1 {
@@ -87,7 +90,14 @@
             padding: 2px 5px;
             background-color: lightsalmon;
             border: none;
+            transition: 1s;
         }
+      .btn:hover{
+        width: 110px;
+            height: 40px;
+          background-color:#ff4266 ;
+      }
+
     </style>
 </head>
 
@@ -95,10 +105,10 @@
     <div class="main">
         <div class="left">
             <h2 style="padding-top: 20px;">LOGIN</h2>
-            <div style="padding-top: 20px;">
+            
                 <img src="facebook1.png" class="image">
                 <img src="twitter.jpg" class="image">
-            </div>
+            
 
             <div class="lable1">
                 <label>or use your account</label>
